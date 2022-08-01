@@ -6,7 +6,7 @@ _using transistor as a way to save power with a servo motor when the servo is no
 
 you can see and test simulated circuit [here](https://www.tinkercad.com/things/61N3EOfaYlB-power-saving-servo/editel)
 
-**code used: **
+**code used:**
 ```
 #include <Servo.h>
 
