@@ -1,12 +1,12 @@
 # Power-Saving-Servo
-using transistor as a way to save power with a servo motor when the servo is not recieving a signal.
+_using transistor as a way to save power with a servo motor when the servo is not recieving a signal._
 
-circuit is shown below.
+**circuit is shown below.**
 ![Fantabulous Rottis](https://user-images.githubusercontent.com/109004035/182248309-e91c85a6-7c6b-4cc2-8c44-cf60e1913024.png)
 
-you can see and test simulated circuit here: https://www.tinkercad.com/things/61N3EOfaYlB-power-saving-servo/editel
+you can see and test simulated circuit here[here](https://www.tinkercad.com/things/61N3EOfaYlB-power-saving-servo/editel)
 
-code used: 
+**code used: **
 ```
 #include <Servo.h>
 
@@ -36,4 +36,4 @@ From the code, the servo will start at 45 degree, delay, then will up to 90 and 
 during the delays, you can see that the current reaching the servo will significantly drop! this is causedby the transistor and the abcense of signal.
 as the servo recives signals again, the current will go through again, and cut again during delays!
 
-the Arduino code file is attached !
+**the Arduino code file is attached !**
